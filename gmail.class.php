@@ -80,20 +80,6 @@ class gmail{
                 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
                 curl_setopt($ch, CURLOPT_POSTFIELDS, $xml);
                 break;
-/*
- * RETRIVE Отдаст вот такое:
- *
- * <?xml version='1.0' encoding='UTF-8'?>
- * <entry xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
- *     <id>https://apps-apis.google.com/a/feeds/emailsettings/2.0/dmbasis.ru/n.kozkin/signature</id>
- *     <updated>2013-11-22T09:43:29.922Z</updated>
- *     <link rel='self' type='application/atom+xml' href='https://apps-apis.google.com/a/feeds/emailsettings/2.0/dmbasis.ru/n.kozkin/signature'/>
- *     <link rel='edit' type='application/atom+xml' href='https://apps-apis.google.com/a/feeds/emailsettings/2.0/dmbasis.ru/n.kozkin/signature'/>
- *     <apps:property name='signature'
- *                    value='&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span lang=&quot;EN-US&quot;&gt;&#xA;Nikolay Kozkin&lt;/span&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;span lang=&quot;EN-US&quot;&gt;system administrator&lt;/span&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;span lang=&quot;EN-US&quot;&gt;DM Basis service company&lt;/span&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background:white&quot;&gt;Office +7 495 7211866&#xA;ext&lt;span&gt;  433&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;a href=&quot;mailto:n.kozkin@dmbasis.ru&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;background:white&quot;&gt;n.kozkin@dmbasis.ru&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;a href=&quot;http://www.dmbasis.ru/&quot; target=&quot;_blank&quot;&gt;http://www.dmbasis.ru&lt;/a&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;'/>
- * </entry>
- *
-*/
             case "retrieve":
                 break;
         }
